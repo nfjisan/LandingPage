@@ -1,0 +1,114 @@
+/* 
+	Project Name: Landing Page;
+	Author: Md. Jisan Ahmed;
+	Author URI: https://github.com/nfjisan;
+	Description: This is landing page project;
+	tags: Landing page, website, blog page;
+	Version: 1.0;
+
+	==============================================
+		table of content
+	==============================================
+		1. default and core css
+		2. Header
+		3. Main Menu
+		4. Slider
+		5. Services
+		6. Team
+		7. Footer
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:ital,wght@0,400;1,500;1,900&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+body{
+	margin:0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin:0px auto;
+}
+
+
+
+
+
+/*
+	==============================================================
+		2. Header
+	==============================================================
+*/
+.header_section{
+	background-color: #ededed;
+	padding: 5px 0px;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+}
+.header_left{
+	flex: 1;
+}
+.header_left img{
+	width:50px;
+}
+.header_right{
+	flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header_right a{
+	color: #990000;
+    font-size: 18px;
+    margin-left: 6px;
+}
+.header_right a:hover{
+	color:#006699;
+}
+
+
+
+
+
+
+
+
+
+/*
+	==============================================================
+		3. Main Menu
+	==============================================================
+*/
+.main_menu_section{
+	background-color: #990000;
+}
+.main_menu{
+	display: flex;
+}
+.main_menu a{
+	    font-size: 18px;
+    color: #fff;
+    padding: 12px 18px;
+}
+.main_menu a:hover{
+	background-color: #006699;
+}
