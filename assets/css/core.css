@@ -47,6 +47,19 @@ a{
 	margin:0px auto;
 }
 
+.title{
+
+}
+.title h2{
+	text-align: center;
+    font-size: 65px;
+    color: #990000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -108,7 +121,64 @@ a{
 	    font-size: 18px;
     color: #fff;
     padding: 12px 18px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
 }
 .main_menu a:hover{
 	background-color: #006699;
+}
+
+
+
+
+
+
+/*
+	==============================================================
+		5. Services
+	==============================================================
+*/
+.services_section{
+	padding: 100px 0px;
+}
+.services{
+	display: flex;
+}
+.single_services{
+    background: #dddfe2;
+    margin: 15px;
+    padding: 35px 15px;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.single_services:after{
+	position: absolute;
+    content: '';
+    width: 100px;
+    height: 10px;
+    background-color: purple;
+    top: 0px;
+    left: 35%;
+    transition: 0.8s;
+}
+.single_services:hover{
+	transform: scale(1.1);
+}
+.single_services:hover.single_services:after{
+	top: -5px;
+}
+.single_services h3{
+	font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    color: #006699;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+}
+.single_services p{
+	font-size: 16px;
+    color: #000;
+    margin: 0px;
+    margin-top: 10px;
 }
